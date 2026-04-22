@@ -1,5 +1,17 @@
-node_modules/
+# Ignore all environment files
 .env
 .env.*
-.DS_Store
+
+# Explicit paths (extra safety)
+/backend/.env
+/frontend/.env
+
+# Node modules
+node_modules/
+
+# Build folders
 dist/
+build/
+
+# OS files
+.DS_Store
